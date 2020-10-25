@@ -39,7 +39,7 @@ function App() {
           <Skills></Skills>
           <ContactMe></ContactMe> */}
            <Switch>
-                <Route exact path="/" component={AboutMe}></Route>
+                <Route exact path={process.env.PUBLIC_URL + '/'} component={AboutMe}></Route>
                 <Route path="/skills" component={Skills}></Route>
                 <Route path="/contactme" component={ContactMe}></Route>
                 <Route path="/github" component={GitHUbComp}></Route>
