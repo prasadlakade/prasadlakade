@@ -20,14 +20,14 @@ function App() {
       <header>
       </header>
       <main>
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           <div className="bottommenu-bar">
             <div className="bottommenu-bar-wrapper">
                 <div className="sectionbutton">
-                  <Link className="button" to="http://prasadlakade.github.io/prasadlakade/" >ABOUT ME</Link>
-                  <Link className="button" to="http://prasadlakade.github.io/prasadlakade/skills" >SKILLS</Link>
-                  <Link className="button" to="http://prasadlakade.github.io/prasadlakade/contactme" >Contact me</Link>
-                  <Link className="button" to="http://prasadlakade.github.io/prasadlakade/github" >Github</Link>
+                  <Link className="button" to="/" >ABOUT ME</Link>
+                  <Link className="button" to="/skills" >SKILLS</Link>
+                  <Link className="button" to="/contactme" >Contact me</Link>
+                  <Link className="button" to="/github" >Github</Link>
                   
                 </div>
             </div>
@@ -39,10 +39,10 @@ function App() {
           <Skills></Skills>
           <ContactMe></ContactMe> */}
            <Switch>
-                <Route exact path="http://prasadlakade.github.io/prasadlakade/" component={AboutMe}></Route>
-                <Route path="http://prasadlakade.github.io/prasadlakade/skills" component={Skills}></Route>
-                <Route path="http://prasadlakade.github.io/prasadlakade/contactme" component={ContactMe}></Route>
-                <Route path="http://prasadlakade.github.io/prasadlakade/github" component={GitHUbComp}></Route>
+                <Route exact path="/" component={AboutMe}></Route>
+                <Route path="/skills" component={Skills}></Route>
+                <Route path="/contactme" component={ContactMe}></Route>
+                <Route path="/github" component={GitHUbComp}></Route>
                 <Route component={Errorcomp} />
               </Switch>
         </div>
