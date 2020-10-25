@@ -24,7 +24,7 @@ function App() {
           <div className="bottommenu-bar">
             <div className="bottommenu-bar-wrapper">
                 <div className="sectionbutton">
-                  <Link className="button" to="/" >ABOUT ME</Link>
+                  <Link className="button" to={process.env.PUBLIC_URL + '/'} >ABOUT ME</Link>
                   <Link className="button" to="/skills" >SKILLS</Link>
                   <Link className="button" to="/contactme" >Contact me</Link>
                   <Link className="button" to="/github" >Github</Link>
