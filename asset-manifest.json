@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/prasadlakade/static/css/main.e9a0e55e.chunk.css",
-    "main.js": "/prasadlakade/static/js/main.b906e07b.chunk.js",
-    "main.js.map": "/prasadlakade/static/js/main.b906e07b.chunk.js.map",
+    "main.js": "/prasadlakade/static/js/main.aeececd1.chunk.js",
+    "main.js.map": "/prasadlakade/static/js/main.aeececd1.chunk.js.map",
     "runtime-main.js": "/prasadlakade/static/js/runtime-main.09cfce64.js",
     "runtime-main.js.map": "/prasadlakade/static/js/runtime-main.09cfce64.js.map",
     "static/js/2.905be6c8.chunk.js": "/prasadlakade/static/js/2.905be6c8.chunk.js",
     "static/js/2.905be6c8.chunk.js.map": "/prasadlakade/static/js/2.905be6c8.chunk.js.map",
     "index.html": "/prasadlakade/index.html",
-    "precache-manifest.01ed790abfca055601181def6f38c9b7.js": "/prasadlakade/precache-manifest.01ed790abfca055601181def6f38c9b7.js",
+    "precache-manifest.ab82be63cc62780042d3c1ab4d749af0.js": "/prasadlakade/precache-manifest.ab82be63cc62780042d3c1ab4d749af0.js",
     "service-worker.js": "/prasadlakade/service-worker.js",
     "static/css/main.e9a0e55e.chunk.css.map": "/prasadlakade/static/css/main.e9a0e55e.chunk.css.map",
     "static/js/2.905be6c8.chunk.js.LICENSE.txt": "/prasadlakade/static/js/2.905be6c8.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.09cfce64.js",
     "static/js/2.905be6c8.chunk.js",
     "static/css/main.e9a0e55e.chunk.css",
-    "static/js/main.b906e07b.chunk.js"
+    "static/js/main.aeececd1.chunk.js"
   ]
 }
