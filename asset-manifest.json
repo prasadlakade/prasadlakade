@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/prasadlakade/static/css/main.e9a0e55e.chunk.css",
+    "main.js": "/prasadlakade/static/js/main.852ff2f3.chunk.js",
+    "main.js.map": "/prasadlakade/static/js/main.852ff2f3.chunk.js.map",
+    "runtime-main.js": "/prasadlakade/static/js/runtime-main.09cfce64.js",
+    "runtime-main.js.map": "/prasadlakade/static/js/runtime-main.09cfce64.js.map",
+    "static/js/2.905be6c8.chunk.js": "/prasadlakade/static/js/2.905be6c8.chunk.js",
+    "static/js/2.905be6c8.chunk.js.map": "/prasadlakade/static/js/2.905be6c8.chunk.js.map",
+    "index.html": "/prasadlakade/index.html",
+    "precache-manifest.1d41b1c24d43d60ffc6fb48ae7d1631f.js": "/prasadlakade/precache-manifest.1d41b1c24d43d60ffc6fb48ae7d1631f.js",
+    "service-worker.js": "/prasadlakade/service-worker.js",
+    "static/css/main.e9a0e55e.chunk.css.map": "/prasadlakade/static/css/main.e9a0e55e.chunk.css.map",
+    "static/js/2.905be6c8.chunk.js.LICENSE.txt": "/prasadlakade/static/js/2.905be6c8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.09cfce64.js",
+    "static/js/2.905be6c8.chunk.js",
+    "static/css/main.e9a0e55e.chunk.css",
+    "static/js/main.852ff2f3.chunk.js"
+  ]
+}
