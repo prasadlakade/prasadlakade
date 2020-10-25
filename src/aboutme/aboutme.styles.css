@@ -1,0 +1,12 @@
+/**/
+.aboutme-innerwrap{position: relative;font-family: 'VT323', monospace;}
+
+.aboutme-cmn{display: flex;flex-wrap: wrap;flex-direction: row;justify-content: space-evenly;}
+
+.abtmeimg{width: 200px;height: 200px;border-radius: 50%;margin: 0 auto;}
+.imgwrap{position: relative;overflow: hidden;}
+.imgwrap img{width: 100%;height: auto;}
+
+.aboutme-det-wrapper{position: relative;display: flex;align-items: center;justify-content: center;flex-wrap: wrap;flex-direction: row;height: calc(100vh - 40px);}
+.aboutmedet{text-align: center;}
+/**/
