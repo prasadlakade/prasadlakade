@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c39d65ce909bd5cb15547988e536ef92",
+    "revision": "42381883e276e61348c2491c3977d6c8",
     "url": "/prasadlakade/index.html"
   },
   {
-    "revision": "ad72889085433f73038f",
+    "revision": "27c08b5ccab67e2c6191",
     "url": "/prasadlakade/static/css/main.e9a0e55e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/prasadlakade/static/js/2.905be6c8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ad72889085433f73038f",
-    "url": "/prasadlakade/static/js/main.c30d57ad.chunk.js"
+    "revision": "27c08b5ccab67e2c6191",
+    "url": "/prasadlakade/static/js/main.bbf3d976.chunk.js"
   },
   {
     "revision": "7f1a2c14728281fb1576",
