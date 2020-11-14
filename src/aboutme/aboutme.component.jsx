@@ -10,7 +10,7 @@ return(
         <div className="aboutme-det-wrapper">
             <div className="aboutme-cmn">
                 <div className="abtmeimg imgwrap">
-                    <img src="/images/mypic1.jpg" alt="me" />
+                    <img src="./images/mypic1.jpg" alt="me" />
                 </div>
                 <div className="aboutmedet">
                     <h1>Prasad Lakade</h1>
