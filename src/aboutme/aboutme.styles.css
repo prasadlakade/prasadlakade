@@ -1,12 +1,17 @@
 /**/
 .aboutme-innerwrap{position: relative;font-family: 'VT323', monospace;}
 
-.aboutme-cmn{display: flex;flex-wrap: wrap;flex-direction: row;justify-content: space-evenly;}
-
-.abtmeimg{width: 200px;height: 200px;border-radius: 50%;margin: 0 auto;}
+.aboutme-cmn{display: flex;flex-wrap: wrap;flex-direction: row;justify-content: space-evenly;flex-basis: 100%;}
+.abtmeimg{width: 400px;height: calc(100vh - 40px);border-radius: 10px;margin:0 20px 0 0 ;box-shadow: 0 0 35px 4px #000;display: flex;align-items: center;flex-direction: column;}
 .imgwrap{position: relative;overflow: hidden;}
-.imgwrap img{width: 100%;height: auto;}
+.imgwrap img{width: 100%;height: auto;filter:blur(1px) brightness(0.5) drop-shadow(2px 4px 6px black) saturate(0.5)}
 
-.aboutme-det-wrapper{position: relative;display: flex;align-items: center;justify-content: center;flex-wrap: wrap;flex-direction: row;height: calc(100vh - 40px);}
-.aboutmedet{text-align: center;}
+.aboutme-det-wrapper{position: relative;display: flex;align-items: center;justify-content: center;flex-wrap: wrap;flex-direction: row;color: #fff;padding: 50px;}
+.aboutme-det-wrapper-two{position: relative;text-align: center;padding: 30px;}
+
+.leftblock{width: 400px;float: left;background-color: #1d1d1d;}
+.rightblock{width: calc(100% - 420px);;display: flex;align-items: center;flex-direction: row;justify-content:center;height:calc(100vh - 40px);text-align: center;}
+.aboutmedet h1{text-transform: uppercase;font-size: 80px;}
+.aboutmedet p{color: #fff;}
+.aboutmedet hr{background-color: #963c32;}
 /**/

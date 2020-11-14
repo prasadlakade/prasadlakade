@@ -13,57 +13,63 @@ import Errorcomp from './Error/errorcomp.component';
 
 import './App.css';
 
+class App extends React.Component {
+  constructor(props){
+    super();
+    
+    this.state = {};
+    this.startloader=this.startloader.bind();
 
-function App() {
-  return (
-<div className="wrapper gradient-color1">
-      <header>
-      </header>
-      <main>
-        <Router basename={process.env.PUBLIC_URL}>
-          <div className="bottommenu-bar">
-            <div className="bottommenu-bar-wrapper">
-                <div className="sectionbutton">
-                  <Link className="button" to='/' >ABOUT ME</Link>
-                  <Link className="button" to="/skills" >SKILLS</Link>
-                  <Link className="button" to="/contactme" >Contact me</Link>
-                  <Link className="button" to="/github" >Github</Link>
-                  
+    setTimeout(this.closeLoader,2000);
+
+  }
+
+  startloader(){
+    document.querySelector('.mainloader').classList.remove('closeloader');
+  }
+  
+  closeLoader(){
+    document.querySelector('.mainloader').classList.add('closeloader');
+  }
+
+  render() {
+    return(
+      <div className="wrapper gradient-color1">
+        {/* <div className="mainloader">loading....</div> */}
+          <header>
+          </header>
+          <main>
+            <Router basename={process.env.PUBLIC_URL}>
+              <div className="bottommenu-bar">
+                <div className="bottommenu-bar-wrapper">
+                    <div className="sectionbutton">
+                      <Link className="button" to='/' >ABOUT ME</Link>
+                      <Link className="button" to="/skills" >SKILLS</Link>
+                      <Link className="button" to="/contactme" >Contact me</Link>
+                      <Link className="button" to="/github" >Github</Link>
+                      
+                    </div>
                 </div>
+                
+              </div>
+            
+            <div className="main-wrapper">
+            
+              <Switch>
+                    <Route exact path='/' component={AboutMe}></Route>
+                    <Route path="/skills" component={Skills}></Route>
+                    <Route path="/contactme" component={ContactMe}></Route>
+                    <Route path="/github" component={GitHUbComp}></Route>
+                    <Route component={Errorcomp} />
+                  </Switch>
             </div>
-             
-          </div>
-        
-        <div className="main-wrapper">
-          {/* <AboutMe></AboutMe>
-          <Skills></Skills>
-          <ContactMe></ContactMe> */}
-           <Switch>
-                <Route exact path='/' component={AboutMe}></Route>
-                <Route path="/skills" component={Skills}></Route>
-                <Route path="/contactme" component={ContactMe}></Route>
-                <Route path="/github" component={GitHUbComp}></Route>
-                <Route component={Errorcomp} />
-              </Switch>
-        </div>
-        </Router>
-      </main>
-      <footer></footer>
-      {/* <div className="bottommenu-bar">
-        <div className="bottommenu-bar-wrapper">
-            <div className="sectionbutton">
-              <button><Link to="/">ABOUT ME</Link></button>
-              <button><Link to="/">SKILLS</Link></button>
-              <button><Link to="/">Projects</Link></button>
-              {/* <button>SKILLS</button>
-              <button>Projects</button>
-              <button>Blogs</button>
-              <button>Contact me</button> }
-            </div>
-        </div>
-      </div> */}
-    </div>   
-  );
+            </Router>
+          </main>
+          <footer></footer>
+        </div> 
+    )
+  }
 }
+
 
 export default App;

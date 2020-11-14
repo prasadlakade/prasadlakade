@@ -5,12 +5,13 @@ body{color: #963c32;font-family: 'VT323', monospace;font-size: 25px;}
 .wrapper {
   /* min-height: 100vh; */
   overflow: hidden;
+  min-height: 100vh;
 }
 
 .common-wrapper{
   margin-top: 40px;
-  height: calc(100vh - 40px);
-  overflow-y: auto;
+  /* height: calc(100vh - 40px);
+  overflow-y: auto; */
 }
 
 .gradient-color1{
@@ -24,3 +25,33 @@ body{color: #963c32;font-family: 'VT323', monospace;font-size: 25px;}
 .bottommenu-bar .sectionbutton{display: flex;justify-content: space-evenly;align-items: flex-start;}
 .bottommenu-bar .sectionbutton .button{flex-basis: 100%;text-align: center;cursor: pointer;height:40px;line-height: 40px;background-color: #0c2840;color: #fff;border: 0;box-shadow: 0 0 14px 3px #000;transition: all 0.5s linear;text-transform: uppercase;text-decoration: none;}
 .bottommenu-bar .sectionbutton .button:hover{height: 60px;background-color: #0b4473;line-height: 60px;}
+
+.common-btn{
+  position: relative;
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 0 #333;
+  transition: all 0.3s ease-in-out;
+}
+.common-btn:hover{
+  transform: scale(1.03);
+}
+
+.mainloader{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 100;
+  background-color: #333;
+  opacity: 1;
+}
+.closeloader{
+  opacity: 0;
+  display: none;
+}

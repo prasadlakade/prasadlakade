@@ -4,7 +4,7 @@ import './progressbar.styles.css';
 
 const ProgressBar = (props) => {
     console.log(props);
-    const {id,name,value,...otherAttr} = props;
+    const {id,name} = props;
         
     return(
         // <React.Fragment>

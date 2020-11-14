@@ -1,6 +1,42 @@
+.gitinner-wrap-top{
+    background-color: #963c32;
+    padding: 30px;
+    color: #fff;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top:0;
+}
+
 .git-heading{
     text-align: center;
 }
+
+.git-profile-wrapper{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.git-profileimage-wrap{position: relative;overflow: hidden;flex-basis: 200px;height:200px;border-radius: 10px;box-shadow: 0 0 35px 4px #000;margin-right: 30px;}
+.git-profileimage-wrap img{width: auto;height: 100%;}
+.git-details-wrap p{
+    font-size: 20px;
+    line-height: 26px;
+    margin: 0;
+}
+
+.gitinner-wrap-bottom{
+    margin-top: 400px;
+    position: relative;
+    background-color: #141414;
+    z-index: 1;
+    padding: 30px 0;
+    box-shadow: -2px 0 40px 2px #000;
+} 
 
 .git-card-wrapper{
     position: relative;
@@ -9,13 +45,14 @@
     justify-items: stretch;
     justify-items: stretch;
     grid-auto-flow: row dense;
-    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-columns: 1fr 1fr; 
     padding:30px
 }
 
-.git-card-wrapper {
+
+/* .git-card-wrapper {
     
-  }
+} */
 
 .cards{
     margin: 10px;
