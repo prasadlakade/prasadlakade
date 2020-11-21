@@ -41,6 +41,10 @@ body{color: #963c32;font-family: 'VT323', monospace;font-size: 25px;}
   transform: scale(1.03);
 }
 
+.text-center{
+  text-align: center;
+}
+
 .mainloader{
   position: fixed;
   left: 0;

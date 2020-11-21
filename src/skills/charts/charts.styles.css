@@ -1,8 +1,12 @@
 .chart-wrapper{
     position: relative;
+    background-color:#963c32;
+}
+#chart-wrapper-inner{
+    position: relative;
     max-width: 1000px;
     margin: 0 auto;
-    display: block;
-    background-color:#963c32;
     padding: 40px;
 }
+
+

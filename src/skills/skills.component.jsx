@@ -92,7 +92,10 @@ class Skills extends React.Component {
                     <ProgressBar key={index} {...skill}></ProgressBar>
                 ))
             } */}
-            <Charts skillss={this.state.skillname}/>
+            <h1 className="text-center">My Skills</h1>
+            <div className="skills-fixedwrapper">
+                <Charts skillss={this.state.skillname}/>
+            </div>
         </div>
         )
     }

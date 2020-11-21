@@ -1,0 +1,8 @@
+.skills-fixedwrapper{
+    color: #fff;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 100;
+}
